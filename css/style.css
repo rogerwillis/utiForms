@@ -1,0 +1,191 @@
+/* CSS Document */
+
+		
+		
+body {
+	margin-top:30px;
+	background: url('http://getinfo.s3.amazonaws.com/images/pmlp/bk/uti_bg1.jpg');
+	font: 11px Trebuchet Ms;
+color: #036;
+}
+h1{font-size: 16px;
+font-family: Trebuchet Ms;
+font-weight: bold;
+color: #196bb8;
+padding: 2px;
+margin: 0;}
+
+h2{font-size: 11px;
+font-family: Trebuchet Ms;color: #000;
+padding: 2px 0;
+margin: 0;}
+
+.HalogenContentHeader {
+border-bottom: 1px #196bb8 solid;
+padding-left: 5px;
+padding-right: 5px;
+margin-left: 5px;
+margin-right: 5px;
+padding-top: 10px;
+}
+
+p,li {font: 11px Trebuchet Ms;line-height: 21px;}
+ul, ol {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+/*Layout Styles*/
+
+header.container {
+	background: #555;
+	margin: 0 auto;
+	max-width:977px;
+	
+}
+.well {
+	background: #fff;
+}
+.form-wrapper {
+	padding: 20px 29px;
+	background: #fff;
+	max-width:977px;
+	
+}
+.form-container {
+	border: solid 3px #a4a4a4;
+	padding: 13px 15px;
+	background-color: #eee;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	
+}
+
+
+/*form styles*/
+.progress {
+background-image: -webkit-linear-gradient(top,#bbbbbb 0,#bbbbbb 100%);
+background-image: linear-gradient(to bottom,#bbbbbb 0,#bbbbbb 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbbbbbb',endColorstr='#bbbbbb',GradientType=0);
+height:13px;
+margin-bottom: 0px;
+}
+
+.progress-bar {
+background-image: -webkit-linear-gradient(top,#A8A8A8 0,#888888 60%);
+background-image: linear-gradient(to bottom,#A8A8A8 0,#888888 60%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca',endColorstr='#ff3071a9',GradientType=0);
+}
+
+label{color: #196bb8;font-size:11px;}
+
+label.error {
+font-size: 11px;
+position: absolute;
+top: -9px;
+right: -15px;
+z-index: 99;
+height: 25px;
+line-height: 25px;
+background-color: #e34f4f;
+color: #fff;
+font-weight: normal;
+padding: 0 6px;
+}
+
+label.error:after {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 6px 6px 0;
+border-color: transparent #e34f4f;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -6px;
+left: 20%;
+}
+
+	
+/*Hide elements*/
+ .militaryStatus, .militarySeparation, .militaryInstallationOrBase, .education, .hsName, .military, .addressPane {
+            display: none;
+        }
+
+/*Bootstrap Overrides*/
+.form-group {
+margin-bottom: 9px;
+}
+.navigation_button {
+display: inline-block;
+padding: 1px 10px;
+background-color: #0970d0;
+border: 1px solid #ddd;
+border-radius: 1px;
+color:#fff;
+font: bold 14px Trebuchet Ms;
+text-transform:uppercase;
+border-top: solid 1px #61c8f0;
+border-right: solid 1px #0248ba;
+border-bottom: solid 1px #0030a8;
+border-left: solid 1px #2098e0;
+box-shadow: 0 1px 3px #999;
+text-shadow: 0 -1px 1px #222;
+float: right;
+}
+.navigation_button.ui-state-disabled {
+display: inline-block;
+padding: 1px 10px;
+background: #053d70;
+border: 1px solid #ddd;
+border-radius: 1px;
+color:#fff;
+font: bold 14px Trebuchet Ms;
+text-transform:uppercase;
+border-top: solid 1px #61c8f0;
+border-right: solid 1px #0248ba;
+border-bottom: solid 1px #0030a8;
+border-left: solid 1px #2098e0;
+box-shadow: 0 1px 3px #999;
+text-shadow: 0 -1px 1px #222;
+opacity:.5;
+}
+
+.navigation_button:hover
+{
+	background: #053d70;
+	}
+
+#back {
+padding-bottom: 15px;
+display: block;
+cursor:pointer;
+text-decoration:underline;
+}
+
+
+/*Utilities*/
+
+.padding-left-0{padding-left:0;}
+.padding-left-5{padding-left:5px;}
+.padding-left-10{padding-left:10px;}
+.padding-left-15{padding-left:15px;}
+
+.margin-left-neg20 {margin-left:20px;}
+
+.data{ background:white}
+.form-container{overflow:hidden}
+
+.p1 {padding-right: 0;}
+.p2,.p3{padding-right: 0; padding-left: 10px;}
+
+
+/*MEDIA QUERIES*/
+@media only screen 
+    and (max-width : 480px)
+    {
+body{margin: 20px;}
+        }
+		
